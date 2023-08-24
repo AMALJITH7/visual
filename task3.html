@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <div>Home</div>
+        <div>Services</div>
+        <div>Blog</div>
+        <div>About</div>
+        <div>Faq</div>
+
+        
+    </div>
+    <div class="card">
+
+        <form>
+            <h2 class="main">Subscribe Now </h2>
+        <h2 class="sub">to Our Newsletter</h2>
+        <p>India's ambitious lunar mission Chandrayaan-3 has shared more images of the Moon that will guide the lander during its historic touchdown tomorrow.</p>
+        
+        <input type="text" name="Name" placeholder="Name"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <button >send <select name="Send"></select></button>
+
+    </form>
+    <img src="download.jpg" class="img">
+</div>
+    
+</body>
+</html>
+<style>
+    body{
+        background-color: rgb(118, 118, 240);
+    }
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+        color: white;
+        
+    }
+    .main{
+        color: rgb(225, 247, 31);
+        font-size: 3rem;
+        margin-top: 6rem;
+
+    }
+    .sub{
+        color: white;
+        font-size: 3rem;
+        margin-top: -3rem;
+    }
+    p{
+        color: white;
+        max-width: 377px;
+    }
+    input{
+        border-radius: 10px;
+        border: none;
+        height: 21px;
+         width: 234px;
+        margin-top: 20px;
+}
+    form{
+        
+    margin-left: 126px;
+
+    }
+    button{
+    border-radius: 10px;
+    color: black;
+    background-color: yellow;
+    width: 64px;
+    border: none;
+    height: 20px;
+    margin-top: 21px;
+    }
+    .img{
+     width: 20rem;
+     height: 20rem;
+    border-radius: 20rem;
+    margin-top: 62px;
+    
+    }
+
+    
+    select{
+        color: black;
+        background-color:yellow; 
+        border: none;
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+    }
+    @media only screen and (max-width: 600px) {
+    .img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+    margin-top: 62px;
+    margin-left: 93px;
+
+  }
+  .card{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        margin-left: -18px;
+    }
+  .nav{
+    display: flex;
+    gap: 49px;
+    color: white;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+}
+</style>
